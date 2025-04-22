@@ -5,7 +5,10 @@ SELECT s.customer_id, SUM(m.price) AS total_sales
 FROM Menu m
 JOIN Sales s
   ON m.product_id = s.product_id
-GROUP BY s.customer_id;```
+GROUP BY s.customer_id;
+```
+
+### ✅ Answer:
 
 | Customer_id | Total_sales |
 |-------------|-------------|

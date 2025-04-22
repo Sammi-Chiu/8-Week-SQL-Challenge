@@ -6,3 +6,9 @@ FROM Menu m
 JOIN Sales s
   ON m.product_id = s.product_id
 GROUP BY s.customer_id;
+
+| Customer_id | Total_sales |
+|-------------|-------------|
+| A           | 76          |
+| B           | 74          |
+| C           | 36          |
